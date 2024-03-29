@@ -1,0 +1,453 @@
+<!doctype html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <!-- utf-8 works for most cases -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Forcing initial-scale shouldn't be necessary -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Use the latest (edge) version of IE rendering engine -->
+    <title>"Memórias Minhas", de Manuel Alegre</title>
+    <!-- The title tag shows in email notifications, like Android 4.4. -->
+    <!-- Please use an inliner tool to convert all CSS to inline as inpage or external CSS is removed by email clients -->
+    <!-- important in CSS is used to prevent the styles of currently inline CSS from overriding the ones mentioned in media queries when corresponding screen sizes are encountered -->
+
+    <!-- CSS Reset -->
+    <style type="text/css">
+/* What it does: Remove spaces around the email design added by some email clients. */
+      /* Beware: It can remove the padding / margin and add a background color to the compose a reply window. */
+html,  body {
+	margin: 0 !important;
+	padding: 0 !important;
+	height: 100% !important;
+	width: 100% !important;
+}
+/* What it does: Stops email clients resizing small text. */
+* {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+/* What is does: Centers email on Android 4.4 */
+div[style*="margin: 16px 0"] {
+	margin: 0 !important;
+}
+/* What it does: Stops Outlook from adding extra spacing to tables. */
+table,  td {
+	mso-table-lspace: 0pt !important;
+	mso-table-rspace: 0pt !important;
+}
+/* What it does: Fixes webkit padding issue. Fix for Yahoo mail table alignment bug. Applies table-layout to the first 2 tables then removes for anything nested deeper. */
+table {
+	border-spacing: 0 !important;
+	border-collapse: collapse !important;
+	table-layout: fixed !important;
+	margin: 0 auto !important;
+}
+table table table {
+	table-layout: auto;
+}
+/* What it does: Uses a better rendering method when resizing images in IE. */
+img {
+	-ms-interpolation-mode: bicubic;
+}
+/* What it does: Overrides styles added when Yahoo's auto-senses a link. */
+.yshortcuts a {
+	border-bottom: none !important;
+}
+/* What it does: Another work-around for iOS meddling in triggered links. */
+a[x-apple-data-detectors] {
+	color: inherit !important;
+}
+</style>
+
+    <!-- Progressive Enhancements -->
+    <style type="text/css">
+        h1{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:2em;
+			font-style:italic;
+			font-weight:bold;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h2{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:100%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h3{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.4em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h4{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1.1em;
+			font-style:normal;
+			font-weight:bold;
+			line-height:120%;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		h5{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:14px;
+			font-style:normal;
+			font-weight:normal;
+			letter-spacing:normal;
+			text-align:center;
+		}
+		p{
+			color:#000000;
+			font-family:sans-serif;
+			font-size:1em;
+			font-style:normal;
+			font-weight:normal;
+			line-height:165%;
+			letter-spacing:normal;
+			text-align:left;
+		}
+        /* What it does: Hover styles for buttons */
+        .button-td,
+        .button-a {
+            transition: all 100ms ease-in;
+        }
+        .button-td:hover,
+        .button-a:hover {
+            background: #555555 !important;
+            border-color: #555555 !important;
+        }
+
+        /* Media Queries */
+        @media screen and (max-width: 700px) {
+
+            .email-container {
+                width: 100% !important;
+            }
+
+            /* What it does: Forces elements to resize to the full width of their container. Useful for resizing images beyond their max-width. */
+            .fluid,
+            .fluid-centered {
+                max-width: 700 !important;
+                height: auto !important;
+                margin-left: auto!important;
+                margin-right: auto!important;
+            }
+            /* And center justify these ones. */
+            .fluid-centered {
+                margin-left: auto !important;
+                margin-right: auto !important;
+            }
+
+            /* What it does: Forces table cells into full-width rows. */
+            .stack-column,
+            .stack-column-center {
+                display: block !important;
+                width: 100% !important;
+                max-width: 700 !important;
+                direction: ltr !important;
+            }
+            /* And center justify these ones. */
+            .stack-column-center {
+                text-align: center !important;
+            }
+        
+            /* What it does: Generic utility class for centering. Useful for images, buttons, and nested tables. */
+            .center-on-narrow {
+                text-align: center !important;
+                display: block !important;
+                margin-left: auto !important;
+                margin-right: auto !important;
+                float: none !important;
+            }
+            table.center-on-narrow {
+                display: inline-block !important;
+            }
+                
+        }
+
+    </style>
+    </head>
+    <body bgcolor="#FFFFFF" width="100%" style="margin: 0; padding:0" yahoo="yahoo">
+    <table bgcolor="FFFFFF" cellpadding="0" cellspacing="0" border="0" height="100%" width="100%" style="border-collapse:collapse;">
+      <tr>
+        <td>
+            
+            <!-- Visually Hidden Preheader Text : BEGIN -->
+            <div style="display:none;font-size:1px;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;mso-hide:all;font-family: sans-serif;">"Memórias Minhas", de Manuel Alegre</div>
+            <!-- Visually Hidden Preheader Text : END --> 
+            
+            <!-- Cabeçalho : COMEÇO, alterar imagem -->
+            <table align="center" width="100%" class="email-container">
+            <tr>
+                <td align="center" style="font-size: 0.6em; font-weight: normal; line-height: 1em; color: #000000; font-family: sans-serif; padding:10px 0px 0px 0px">Se não conseguir visualizar corretamente este e-mail <a href="https://nldq.github.io/nl-memorias-minhas/">clique aqui</a></td>
+			</tr>
+			<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123445&authkey=%21AMxe9px-h8g3JY0&width=700&height=50" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+			<tr>
+				<td style="padding: 0em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21130602&authkey=%21AF4zHF_EraNfMAE&width=700&height=400" alt="&quot;Memórias Minhas&quot;, de Manuel Alegre" border="0" width="700" align="center" style="width: 100%; max-width: 700px; height: auto;"></td>
+			</tr>
+          </table>
+            <!-- Cabeçalho : FIM --> 
+            
+            <!-- Email Body : BEGIN -->
+            <table cellspacing="0" cellpadding="0" border="0" align="center" bgcolor="#ffffff" width="700" class="email-container">
+            
+<!-- Livro : COMEÇO-->
+            
+				<tr>
+				<td dir="ltr" align="center" valign="top" width="100%" style="padding: 0px;"><table align="center" border="0" cellpadding="0" cellspacing="0" width="90.5%">
+					<table align="center" width="100%">
+						<tbody>
+							<tr>
+							<td valign="top" align="center" style="padding:0px 60px 30px 60px;">
+							<h1 style="color:#457d1e">Memórias Minhas</h1>
+							<h2>Manuel Alegre</h2>
+							<h4>Nas livrarias a 2 de Abril</h4>
+								<br>
+								<h4 style="font-weight:normal"><strong>«<em>Memórias Minhas</em> é um deslumbrante caminhar por dias e lugares que se cruzam com tempos únicos da nossa história contemporânea. Uma vida – uma geração – a rebeldia, a resistência, a guerra, a cadeia, o exílio, a Voz da Liberdade, a festa dos verdes anos, amores e desamores. E ainda, desde o luminoso 25 de Abril que mudou o destino, os combates longos, duros, conflituantes, que esculpiram a identidade da democracia constitucional. E o depois, nas curvas e contracurvas da mudança, do parlamento, da candidatura presidencial.»</strong><br>
+								<br>Alberto Martins</h4>
+								<p style="text-align:left !important"><br>A<strong>s memórias de Manuel Alegre</strong> não são exclusivamente suas, são também as memórias de várias gerações de portugueses, memórias de um certo Portugal, que vão desde o tempo do Portugal triste e cinzento dos anos 50, tão bem reescrito em muita da sua poesia, até ao Portugal radiante e luminoso, o do 25 de Abril e o da liberdade.<br>
+								<br>
+								<em><strong>Memórias Minhas</strong></em> reúne um vasto conjunto de pequenas histórias, nem sempre cronologicamente arrumadas, que proporcionam ao leitor uma dupla viagem: pela vida de Manuel Alegre e ao mesmo tempo pela História recente de Portugal.<br>
+								O tio-trisavô decapitado na sequência das lutas entre liberais e miguelistas, a infância em Águeda e o assobio com que comunicava com o melhor amigo, os colegas que iam descalços para escola, a tia que se referia ao sobrinho como “o nosso poeta” sem ele ter escrito ainda qualquer verso, a eterna e dedicada protecção da avó, o estudante de Coimbra, e os discursos na Associação Académica, que mais não foram do que a sua primeira intervenção cívica.<br>
+								A relação próxima e cúmplice com os amigos escritores, mas também com Adriano Correia de Oliveira e António Portugal naquela noite em que nasceu <em>Trova do Vento que Passa</em>, que a partir de então passou a ser um hino para todos aqueles que se opunham à ditadura de Salazar.<br>
+								<br>
+								<strong>Há demasiadas vidas</strong> na vida de Manuel Alegre. Biografia a mais, talvez, para uma só vida. Sempre vivida de forma tensa e intensa. Que se intensificou ainda mais quando passou a sentir a PIDE sistematicamente por perto ou quando foi mobilizado para os Açores, onde conheceu Melo Antunes, com quem viria a congeminar um plano de revolta militar.<br>
+								Já era então membro do PCP, partido a que aderiu, em 1958, de forma pouco ortodoxa, do qual virá mais tarde a desligar-se, após a invasão da Checoslováquia pelas tropas soviéticas. Para trás no tempo tinham ficado os passeios pelas ruas de Paris e as longas conversas com Álvaro Cunhal, histórias partilhadas neste livro, a prisão em Angola, onde tal como nos Açores, tudo fez para provocar uma acção militar contra o regime, a fuga a salto pela fronteira quando não era mais possível escapar à polícia política.<br>
+								<br>
+								<strong>Para Manuel Alegre</strong> a luta pela liberdade e pela democracia também era feita com poesia. O poeta está longe mas, à distância, consegue a extraordinária proeza de fazer estremecer o país quando publica <em>Praça da Canção</em> (1965) e <em>O Canto e as Armas</em> (1967), livros que falam de Abril muito antes do 25 de Abril.<br>
+								O tão desejado regresso a Portugal, já em liberdade, a visão de um certo Verão Quente, o 25 de Novembro, as razões da entrada para o PS depois de ter jurado a si mesmo que nunca mais faria parte de nenhum partido, a ligação afectiva aos velhos membros do Partido Socialista, a desilusão que foi ter sido por duas vezes membro de um governo, as desavenças com Mário Soares, António Guterres e José Sócrates e com todos aqueles que pretenderam descaracterizar a essência do partido, os bastidores da sua corrida à liderança do PS e, por fim, as circunstâncias que o levaram, por duas vezes, a candidatar-se à Presidência da República.<br>
+								<br>
+								<strong>São estes alguns</strong> dos muitos episódios narrados na primeira pessoa por alguém que esteve presente nos acontecimentos mais relevantes da nossa História recente. E que fazem de <em><strong>Memórias Minhas</strong></em> um dos livros mais aguardados dos últimos tempos.
+								</p>
+								<p><br><b><i>«Não anotei essa conversa nem outras. Lembro alguns encontros, sempre clandestinos, com Álvaro Cunhal.<br>
+								Uma vez acendi um cigarro com o seu isqueiro e, num gesto mecânico, meti-o ao bolso. Então ele disse-me:<br>
+								– Esse não, foi o último presente do meu pai.<br>
+								E tinha lágrimas nos olhos, nunca mais esqueci, porque me parecia impossível que aquele homem pudesse chorar. Acho que compreendi até que ponto tinha disciplinado a sua própria alma. Por ser o secretário-geral do PCP ele passou à clandestinidade o artista que tinha dentro de si.»<br>
+								<br>
+								«(…) Melo Antunes, Marcel de Almeida e eu formámos a equipa encarregada de fazer a distribuição pelo interior da Ilha. Melo Antunes apareceu com uma camisola preta e a cara enfarruscada. Sentou-se ao volante, com a pistola, tapada, no banco ao lado, e mandou-nos para trás. Entrávamos nas povoações em ponto morto, nós saíamos, um para a esquerda, outro para a direita, enfiando os papéis por debaixo das portas ou nas caixas do correio. Não se via ninguém. Mas tínhamos a sensação de que mil olhos nos espreitavam.<br>
+								Regressámos de madrugada. Soubemos que todas as brigadas tinham feito o seu trabalho sem complicações.<br>
+								– Não foi com armas, foi com papéis – dizíamos a rir de alívio e satisfação.<br>
+								O escândalo foi grande em São Miguel. O tenente-coronel Alvarenga considerou que Melo Antunes devia ter-se preservado.<br>
+								– Um general não anda a fazer de soldado.<br>
+								Eu achava que, nessa noite, assim vestido de preto, ao volante do seu carro, Melo Antunes tinha sido um verdadeiro general, ainda que só capitão.<br>
+								– Todos fomos capitães – dizia ele, sem se aperceber do sentido premonitório daquela frase.»<br>
+								<br>
+								«Estava longe de imaginar que no dia 8 de Junho, no fim da tarde, receberia um telefonema do Brasil. Alguém, suponho que o Conselheiro Cultural, porque não percebi bem, comunicou-me:<br>
+								– Os meus parabéns, o senhor acaba de ganhar o Prémio Camões. Vou passar-lhe a presidente do júri, Professora Doutora Paula Morão.<br>
+								– O Prémio Camões é seu – disse ela. E havia alegria na sua voz.<br>
+								Eu não estava à espera, não sabia sequer quem era o júri nem quando iria reunir e fiquei meio aturdido. Dei uma resposta tonta, que será para sempre o meu remorso:<br>
+								– Está para cair um santo do altar.<br>
+								Pouco depois caí em mim, fiz uma nova ligação e pedi desculpa.<br>
+									– Estou muito contente, sinto-me muito honrado.»</i></b>
+								</p>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			<hr width="91%" color="457d1e">
+			<br><br>
+<!-- Sobre o autor -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Manuel Alegre." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21130600&authkey=%21AI2PHbsf15MnKac&width=280&height=420" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p><strong>Manuel Alegre</strong> nasceu a 12 de Maio de 1936 em Águeda.<br>
+							Estudou em Lisboa, no Porto e na Faculdade de Direito da Universidade de Coimbra.<br>
+							Foi campeão nacional de natação e actor do Teatro Universitário de Coimbra (TEUC).<br>
+							Em 1961 é mobilizado para Angola. Preso pela PIDE, passa seis meses na Fortaleza de S. Paulo, em Luanda, onde escreve grande parte dos poemas do seu primeiro livro, <em>Praça da Canção</em>.<br>
+							Em Outubro de 1964 é eleito membro do comité nacional da Frente Patriótica de Libertação Nacional e passa a trabalhar em Argel, na emissora Voz da Liberdade.<br>
+							Regressa a Portugal após o 25 de Abril de 1974.<br>
+							A sua vasta obra literária, que inclui o romance, o conto, o ensaio, mas sobretudo a poesia, tem sido amplamente difundida e aclamada. Foram-lhe atribuídos os mais distintos prémios literários: Grande Prémio de Poesia da APE-CTT, Prémio da Crítica Literária da AICL, Prémio Fernando Namora e Prémio Pessoa, em 1999.<br>
+							Ao seu livro de poemas <em>Doze Naus</em> foi atribuído o Prémio D. Dinis.<br>
+							Em 2014, recebeu o Prémio Amália da Fundação Amália Rodrigues e, em 2016, o Prémio Vida Literária da APE e o Prémio de Consagração de Carreira da SPA.<br>
+							No mesmo ano, o seu livro de poemas <em>Bairro Ocidental</em> conquistou o Grande Prémio de Literatura dst.<br>
+							Em 2017, foi distinguido com o Prémio Camões e, em 2019, com o Prémio Vida e Obra da SPA.<br>
+							Em 2021, <em>Quando</em> recebeu o Prémio Nacional de Poesia António Ramos Rosa.<br>
+							Dirigente histórico do Partido Socialista desde 1974, foi vice-presidente da Assembleia da República, de 1995 a 2009, e é membro do Conselho de Estado.
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<br>
+<hr width="91%" color="457d1e">
+<br>
+<!-- Outros livros da autora-->
+<table align="center" width="80%">
+	<h3 style="color:#457d1e">Outros livros do autor</h3>
+	<tr>
+        <td align="center" width="100%" class="stack-column-center">
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Rafael." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21130606&authkey=%21AGPBPHQS6Yrsm8A&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="A Terceira Rosa." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21130603&authkey=%21ALFKdbKJ3tthaxs&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Jornada de África." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21130599&authkey=%21ACgrPfh-XC40rg0&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Alma." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21130604&authkey=%21AEL3TpB1CRsddAw&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<table align="center" width="80%">
+	<tr>
+        <td align="center" width="100%" class="stack-column-center">
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Cão como nós." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21130597&authkey=%21AHIjrS8G-_PwAhk&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Tudo é e não é." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21130601&authkey=%21ALoqZ_OJtO3nUfY&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Tentação do Norte." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21130598&authkey=%21AGxMmtnjuVwevhc&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<table align="left" width="135" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="Toda a Prosa." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21130605&authkey=%21AOWvtPGY-sbAa-s&width=140&height=210" width="130">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+<br>
+<hr width="91%" color="457d1e">
+<br>
+<!-- Capa e especificações -->
+<table align="center" width="100%">
+	<tr>
+        <td width="100%" class="stack-column-center">
+            <table align="left" width="250" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td align="left" valign="top">
+							<img alt="&quot;Memórias Minhas&quot;, de Manuel Alegre." src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21130607&authkey=%21AASBZ8tKFY75HdU&width=1042&height=1564" width="250">
+						</td>
+					</tr>
+				</tbody>
+			</table>
+            <table align="right" width="400" class="center-on-narrow">
+                <tbody>
+					<tr>
+                    	<td valign="top" style="padding: 0px 20px 0px 0px">
+                        	<p style="line-height: 250%">
+							Biografias e Memórias<br>
+							408 páginas<br>
+							22,00 Euros<br>
+							ISBN: 978-972-20-8162-7<br>
+							1.ª Edição: Abril 2024<br>
+							Dom Quixote
+							</p>
+						</td>
+					</tr>
+            	</tbody>
+			</table>
+        </td>
+    </tr>
+</table>
+					<table align="center" width="100%">
+	<tbody>
+		<tr>
+			<td valign="top" align="center" style="padding: 10px">
+				<p style="text-align: center; line-height: 150%">Para mais informações:<br>
+				Rui Breda<br>
+				938 527 410<br></p>
+			</td>
+		</tr>
+		<tr>
+				<td style="padding: 0.4em 0em 0em 0em; text-align: center" class="full-width-image"><img src="https://onedrive.live.com/embed?resid=A5ECE9195A592475%21123446&authkey=%21AF8CaGSbZcojQpU&width=700&height=125" alt="Dom Quixote" border="0" align="center" width="700" style="width: 100%; max-width: 700px; height: auto;"></td>
+            </tr>
+	</tbody>
+					</table>
+                  </table></td>
+              </tr>
+          </table>
+            <!-- Email Body : END --> 
+            
+            <!-- Email Footer : BEGIN -->
+            
+            <!-- Email Footer : END -->
+            
+			</td></tr></table>
+</body>
+</html>
